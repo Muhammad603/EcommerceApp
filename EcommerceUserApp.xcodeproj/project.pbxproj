@@ -13,6 +13,12 @@
 		186DD27B2401E36F003357C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186DD2792401E36F003357C4 /* Main.storyboard */; };
 		186DD27D2401E370003357C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186DD27C2401E370003357C4 /* Assets.xcassets */; };
 		186DD2802401E370003357C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186DD27E2401E370003357C4 /* LaunchScreen.storyboard */; };
+		186DD28E2401E394003357C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DD28D2401E394003357C4 /* AppDelegate.swift */; };
+		186DD2902401E394003357C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DD28F2401E394003357C4 /* SceneDelegate.swift */; };
+		186DD2922401E394003357C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DD2912401E394003357C4 /* ViewController.swift */; };
+		186DD2952401E394003357C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186DD2932401E394003357C4 /* Main.storyboard */; };
+		186DD29A2401E394003357C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186DD2982401E394003357C4 /* LaunchScreen.storyboard */; };
+		186DD2A02401E3BF003357C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186DD27C2401E370003357C4 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +30,24 @@
 		186DD27C2401E370003357C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		186DD27F2401E370003357C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186DD2812401E370003357C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186DD28B2401E394003357C4 /* EcommerceAdminApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcommerceAdminApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186DD28D2401E394003357C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		186DD28F2401E394003357C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		186DD2912401E394003357C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		186DD2942401E394003357C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		186DD2992401E394003357C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		186DD29B2401E394003357C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		186DD26D2401E36F003357C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186DD2882401E393003357C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +60,9 @@
 		186DD2672401E36F003357C4 = {
 			isa = PBXGroup;
 			children = (
+				186DD29F2401E39F003357C4 /* shared */,
 				186DD2722401E36F003357C4 /* EcommerceUserApp */,
+				186DD28C2401E394003357C4 /* EcommerceAdminApp */,
 				186DD2712401E36F003357C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				186DD2702401E36F003357C4 /* EcommerceUserApp.app */,
+				186DD28B2401E394003357C4 /* EcommerceAdminApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,11 +83,31 @@
 				186DD2752401E36F003357C4 /* SceneDelegate.swift */,
 				186DD2772401E36F003357C4 /* ViewController.swift */,
 				186DD2792401E36F003357C4 /* Main.storyboard */,
-				186DD27C2401E370003357C4 /* Assets.xcassets */,
 				186DD27E2401E370003357C4 /* LaunchScreen.storyboard */,
 				186DD2812401E370003357C4 /* Info.plist */,
 			);
 			path = EcommerceUserApp;
+			sourceTree = "<group>";
+		};
+		186DD28C2401E394003357C4 /* EcommerceAdminApp */ = {
+			isa = PBXGroup;
+			children = (
+				186DD28D2401E394003357C4 /* AppDelegate.swift */,
+				186DD28F2401E394003357C4 /* SceneDelegate.swift */,
+				186DD2912401E394003357C4 /* ViewController.swift */,
+				186DD2932401E394003357C4 /* Main.storyboard */,
+				186DD2982401E394003357C4 /* LaunchScreen.storyboard */,
+				186DD29B2401E394003357C4 /* Info.plist */,
+			);
+			path = EcommerceAdminApp;
+			sourceTree = "<group>";
+		};
+		186DD29F2401E39F003357C4 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				186DD27C2401E370003357C4 /* Assets.xcassets */,
+			);
+			path = shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +130,23 @@
 			productReference = 186DD2702401E36F003357C4 /* EcommerceUserApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		186DD28A2401E393003357C4 /* EcommerceAdminApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186DD29C2401E394003357C4 /* Build configuration list for PBXNativeTarget "EcommerceAdminApp" */;
+			buildPhases = (
+				186DD2872401E393003357C4 /* Sources */,
+				186DD2882401E393003357C4 /* Frameworks */,
+				186DD2892401E393003357C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcommerceAdminApp;
+			productName = EcommerceAdminApp;
+			productReference = 186DD28B2401E394003357C4 /* EcommerceAdminApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +158,9 @@
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
 					186DD26F2401E36F003357C4 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					186DD28A2401E393003357C4 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
@@ -116,6 +179,7 @@
 			projectRoot = "";
 			targets = (
 				186DD26F2401E36F003357C4 /* EcommerceUserApp */,
+				186DD28A2401E393003357C4 /* EcommerceAdminApp */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +195,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		186DD2892401E393003357C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186DD29A2401E394003357C4 /* LaunchScreen.storyboard in Resources */,
+				186DD2A02401E3BF003357C4 /* Assets.xcassets in Resources */,
+				186DD2952401E394003357C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,6 +215,16 @@
 				186DD2782401E36F003357C4 /* ViewController.swift in Sources */,
 				186DD2742401E36F003357C4 /* AppDelegate.swift in Sources */,
 				186DD2762401E36F003357C4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186DD2872401E393003357C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186DD2922401E394003357C4 /* ViewController.swift in Sources */,
+				186DD28E2401E394003357C4 /* AppDelegate.swift in Sources */,
+				186DD2902401E394003357C4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +243,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				186DD27F2401E370003357C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		186DD2932401E394003357C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186DD2942401E394003357C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		186DD2982401E394003357C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186DD2992401E394003357C4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,6 +416,42 @@
 			};
 			name = Release;
 		};
+		186DD29D2401E394003357C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSGH53747P;
+				INFOPLIST_FILE = EcommerceAdminApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MuhammadHussain.EcommerceAdminApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		186DD29E2401E394003357C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSGH53747P;
+				INFOPLIST_FILE = EcommerceAdminApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MuhammadHussain.EcommerceAdminApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -333,6 +469,15 @@
 			buildConfigurations = (
 				186DD2852401E370003357C4 /* Debug */,
 				186DD2862401E370003357C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186DD29C2401E394003357C4 /* Build configuration list for PBXNativeTarget "EcommerceAdminApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186DD29D2401E394003357C4 /* Debug */,
+				186DD29E2401E394003357C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
